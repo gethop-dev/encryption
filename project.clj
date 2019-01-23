@@ -1,5 +1,6 @@
 (defproject magnet/encryption "0.1.0"
   :description "Encryption/decryption library"
+  :url "https://github.com/magnetcoop/encryption"
   :license {:name "Mozilla Public Licence 2.0"
             :url "https://www.mozilla.org/en-US/MPL/2.0/"}
   :dependencies [[caesium "0.10.0"]
