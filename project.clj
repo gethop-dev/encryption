@@ -6,7 +6,6 @@
   :dependencies [[caesium "0.10.0"]
                  [com.taoensso/nippy "2.14.0"]
                  [org.clojure/clojure "1.9.0"]]
-  :signing {:gpg-key "447B768548DBB3B7D7D39518AD76B1599339C36A"}
   :profiles
   {:dev {:plugins [[jonase/eastwood "0.3.4"]
                    [lein-cljfmt "0.6.2"]]}
