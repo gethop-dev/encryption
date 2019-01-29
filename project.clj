@@ -1,12 +1,20 @@
-(defproject magnet/encryption "0.1.0"
+(defproject magnet/encryption "0.2.0"
   :description "Encryption/decryption library"
   :url "https://github.com/magnetcoop/encryption"
   :license {:name "Mozilla Public Licence 2.0"
             :url "https://www.mozilla.org/en-US/MPL/2.0/"}
-  :dependencies [[caesium "0.10.0"]
-                 [com.taoensso/nippy "2.14.0"]
-                 [org.clojure/clojure "1.9.0"]]
-  :signing {:gpg-key "447B768548DBB3B7D7D39518AD76B1599339C36A"}
+  :min-lein-version "2.8.3"
+  :dependencies [[org.clojure/clojure "1.10.0"]
+                 [caesium "0.10.0"]
+                 [com.taoensso/nippy "2.14.0"]]
+  :deploy-repositories [["snapshots" {:url "https://clojars.org/repo"
+                                      :username :env/clojars_username
+                                      :password :env/clojars_password
+                                      :sign-releases false}]
+                        ["releases"  {:url "https://clojars.org/repo"
+                                      :username :env/clojars_username
+                                      :password :env/clojars_password
+                                      :sign-releases false}]]
   :profiles
   {:dev {:plugins [[jonase/eastwood "0.3.4"]
                    [lein-cljfmt "0.6.2"]]}
