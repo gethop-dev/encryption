@@ -1,13 +1,21 @@
 [![Build Status](https://travis-ci.org/magnetcoop/encryption.svg?branch=master)](https://travis-ci.org/magnetcoop/encryption)
 # Encryption
 
-A library for encrypting and decrypting arbitrary Clojure values, using
-[libsodium](https://github.com/jedisct1/libsodium)/[caesium](https://github.com/lvh/caesium)
-symmetric encryption primitives.
+A library for encrypting and decrypting arbitrary Clojure values,
+using [caesium](https://github.com/lvh/caesium) symmetric encryption
+primitives.
 
 ## Installation
 
 [![Clojars Project](https://clojars.org/magnet/encryption/latest-version.svg)](https://clojars.org/magnet/encryption)
+
+**IMPORTANT**: `caesium` depends on
+[libsodium](https://github.com/jedisct1/libsodium) native library
+being installed in the development/production environment. Make sure
+you install the `libsodium` library version recommended for you
+environment before trying to use this encryption library. Otherwise
+execution/compilation will fail with some mysterious syntax error messages
+in `caesium/binding.clj`.
 
 ## Usage
 
