@@ -1,4 +1,4 @@
-(defproject magnet/encryption "0.2.1"
+(defproject magnet/encryption "0.2.2-SNAPSHOT"
   :description "Encryption/decryption library"
   :url "https://github.com/magnetcoop/encryption"
   :license {:name "Mozilla Public Licence 2.0"
