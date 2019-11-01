@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/magnetcoop/encryption.svg?branch=master)](https://travis-ci.org/magnetcoop/encryption)
+[![Build Status](https://api.travis-ci.com/magnetcoop/encryption.svg?branch=master)](https://travis-ci.com/magnetcoop/encryption)
+[![Clojars Project](https://img.shields.io/clojars/v/magnet/encryption.svg)](https://clojars.org/magnet/encryption)
+
 # Encryption
 
 A library for encrypting and decrypting arbitrary Clojure values,
