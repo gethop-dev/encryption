@@ -32,7 +32,7 @@ jobs:
           lein: 2.9.8
 
       - name: Install libsodium
-        run: sudo apt-get update && sudo apt-get install -y libsodium18
+        run: sudo apt-get update && sudo apt-get install -y libsodium23=1.0.18-1
 
       - name: Install clj-kondo
         uses: DeLaGuardo/setup-clj-kondo@master
