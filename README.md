@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.com/gethop-dev/encryption.svg?branch=master)](https://travis-ci.com/gethop-dev/encryption)
+[![ci-cd](https://github.com/gethop-dev/encryption/actions/workflows/ci-cd.yml/badge.svg?branch=master)](https://github.com/gethop-dev/encryption/actions/workflows/ci-cd.yml)
 [![Clojars Project](https://img.shields.io/clojars/v/dev.gethop/encryption.svg)](https://clojars.org/dev.gethop/encryption)
 
 # Encryption
