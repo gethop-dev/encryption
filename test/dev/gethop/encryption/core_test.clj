@@ -2,15 +2,15 @@
 ;; License, v. 2.0. If a copy of the MPL was not distributed with this
 ;; file, You can obtain one at http://mozilla.org/MPL/2.0/
 
-(ns magnet.encryption.core-test
+(ns dev.gethop.encryption.core-test
   (:require [caesium.randombytes :as randombytes]
             [clojure.spec.test.alpha :as stest]
             [clojure.test :refer :all]
-            [magnet.encryption.core :as core])
+            [dev.gethop.encryption.core :as core])
   (:import [clojure.lang ExceptionInfo]))
 
 (defn enable-instrumentation [f]
-  (-> (stest/enumerate-namespace 'magnet.encryption.core) stest/instrument)
+  (-> (stest/enumerate-namespace 'dev.gethop.encryption.core) stest/instrument)
   (f))
 
 (use-fixtures :once enable-instrumentation)

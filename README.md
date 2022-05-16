@@ -1,5 +1,5 @@
-[![Build Status](https://api.travis-ci.com/magnetcoop/encryption.svg?branch=master)](https://travis-ci.com/magnetcoop/encryption)
-[![Clojars Project](https://img.shields.io/clojars/v/magnet/encryption.svg)](https://clojars.org/magnet/encryption)
+[![Build Status](https://api.travis-ci.com/gethop-dev/encryption.svg?branch=master)](https://travis-ci.com/gethop-dev/encryption)
+[![Clojars Project](https://img.shields.io/clojars/v/dev.gethop/encryption.svg)](https://clojars.org/dev.gethop/encryption)
 
 # Encryption
 
@@ -9,7 +9,7 @@ primitives.
 
 ## Installation
 
-[![Clojars Project](https://clojars.org/magnet/encryption/latest-version.svg)](https://clojars.org/magnet/encryption)
+[![Clojars Project](https://clojars.org/dev.gethop/encryption/latest-version.svg)](https://clojars.org/dev.gethop/encryption)
 
 **IMPORTANT**: `caesium` depends on
 [libsodium](https://github.com/jedisct1/libsodium) native library
@@ -41,7 +41,7 @@ This library provides the following methods:
 ### Example code
 
 ``` clojure
-user=> (require '[magnet.encryption.core :as core])
+user=> (require '[dev.gethop.encryption.core :as core])
 nil
 user=> (def key (core/new-key!))
 #'user/key
@@ -82,7 +82,7 @@ user=>
 
 ## License
 
-Copyright (c) 2018, 2019 Magnet S Coop.
+Copyright (c) 2022 HOP Technologies.
 
 The source code for the library is subject to the terms of the Mozilla
 Public License, v. 2.0. If a copy of the MPL was not distributed with
