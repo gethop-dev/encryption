@@ -5,7 +5,6 @@
   (:require [caesium.crypto.secretbox :as secretbox]
             [caesium.randombytes :as random]
             [clojure.spec.alpha :as s]
-            [clojure.spec.test.alpha :as stest]
             [taoensso.encore :as enc]
             [taoensso.nippy :as nippy]
             [taoensso.nippy.encryption :refer [IEncryptor]]))
