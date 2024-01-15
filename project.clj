@@ -5,8 +5,9 @@
             :url "https://www.mozilla.org/en-US/MPL/2.0/"}
   :min-lein-version "2.9.0"
   :dependencies [[org.clojure/clojure "1.10.0"]
-                 [caesium "0.10.0"]
-                 [com.taoensso/nippy "2.14.0"]]
+                 [caesium "0.15.0"]
+                 [com.taoensso/nippy "3.3.0"]
+                 [com.taoensso/encore "3.74.1"]]
   :deploy-repositories [["snapshots" {:url "https://clojars.org/repo"
                                       :username :env/CLOJARS_USERNAME
                                       :password :env/CLOJARS_PASSWORD
