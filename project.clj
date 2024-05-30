@@ -6,8 +6,8 @@
   :min-lein-version "2.9.0"
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [caesium "0.15.0"]
-                 [com.taoensso/nippy "3.3.0"]
-                 [com.taoensso/encore "3.74.1"]]
+                 [com.taoensso/nippy "3.4.2"]
+                 [com.taoensso/encore "3.112.0"]]
   :deploy-repositories [["snapshots" {:url "https://clojars.org/repo"
                                       :username :env/CLOJARS_USERNAME
                                       :password :env/CLOJARS_PASSWORD
