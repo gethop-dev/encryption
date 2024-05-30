@@ -1,4 +1,4 @@
-(defproject dev.gethop/encryption "0.2.4"
+(defproject dev.gethop/encryption "0.2.5-SNAPSHOT"
   :description "Encryption/decryption library"
   :url "https://github.com/gethop-dev/encryption"
   :license {:name "Mozilla Public Licence 2.0"
